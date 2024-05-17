@@ -8,6 +8,20 @@ diffusers==0.10.2
 pytorch-lightning==1.9.0
 bitsandbytes==0.41.3.post2
 tensorflow
+
+
+#------------------------------------
+  #ADDED TO 17.05.2024 - REQUIRE ATTENTION TO tENSORFLOW!
+
+  #tensorflow==2.16.1 having different behaver vs tensorflow==2.15.0 and it is larger change in design
+  #so, tensorflow==2.16.1 is not suitable to install on VM of trainner.
+  #And tensorflow==2.15.0  also require limit of torch version.
+  #NOTE: tensorflow==2.15.1 can be installed, but not yet test for compatible
+
+  # You should istall tensorflow==2.15.0
+#------------------------------------
+
+
 safetensors==0.4.1
 # gradio==3.16.2
 # altair==4.2.2
@@ -32,3 +46,86 @@ lycoris-lora==0.1.4
 xformers==0.0.22.post7
 # for kohya_ss library
 .
+
+#------------------------------------
+  #ADDED TO 17.05.2024 - NOTE - REQUIRE ATTENTION!
+
+  #Repo is not maintained to any change in future, so you notify 
+  #any lines that start with (below section):
+
+      #begin-of-section
+
+        #------------------------------------
+          #ADDED TO 17.05.2024
+          # .....
+        #------------------------------------
+
+      #end-of-section
+
+  #By No Maintain, You must fix version or following info in the above sections
+  #to avoid pain of errors and failures or incompatiblse that they would make Trainer broken
+  # - making your life suffuring from pain/damage/time/money.
+
+  #PLEASE - TRY TO READ IT, DON'T ASK ME, BUT YOU CAN REPORT ISSUES
+
+  #ISSUES maybe usefull or helpfull to know any issues/problems with installs 
+  #not following my guide would work or not, from these issues, i can know what higher versions
+  #maybe work if fix in right/correct way/install!
+  #- HOWEVER, NO MAINTAIN HERE - BUT IF YOU SEE SECTION #---- #ADDED TO <date> .... #---- with
+  # <date> is != 17.05.2024, it means that I make guide changes to higher versions as compare to version of
+  # <date> is == 17.05.2024! - then, you can follow new guide.
+  .
+
+#------------------------------------
+  #ADDED TO 17.05.2024 - REQUIRE ATTENTION TO JAX/JAXLIB!
+
+  #Problems with jax/jaxlib!
+
+  #Trainer would automaticall install jax and jaxlib on system, 
+  #it means that jax and jaxlib should be install in correct/right way.
+  #Trainer only need very little of functions of jax and jaxlib
+  # - jax and jaxlib having large changing from v0.4.24 that package/git/module of trainer would work incorrrect!
+  #So. You should be install jax==0.4.23 and jaxlib==0.4.23
+
+  #Versions jax/jaxlib <0.4.23 and >=jax==0.4.20 is not yet tested! - MAYBE WELL WORK
+
+  #NOTE: JAX/JAXLIB is responsible to Autograd and XLA, but The Trainer don't use them - as I said, The Trainer
+  #use several functions from them - DON'T REMOVE IT
+
+#------------------------------------
+
+#------------------------------------
+  #ADDED TO 17.05.2024 - REQUIRE ATTENTION TO TORCH!
+
+  #Install torch in simple wise from pip is uncontrollable of version torch<XXX>,
+  #<xxx> is of one of {text, vision, audio}, pip torch is not installed in correct wise
+  #of above torch, so it is generating of dependency conflcits, but Trainer is not yet to be require
+  #these torchs. So, it maybe not impact to Trainer, but not yet to bed testesd for all or comfirmed.
+
+  #Torch with version from 2.2.0 is not sure to be compatible to requirement.txt before #ADDED TO 17.05.2024
+
+#------------------------------------
+  #ADDED TO 17.05.2024 - REQUIRE ATTENTION TO XFORMERS/TORCH!
+
+  #Higher Version of Torch >= 2.2.0 and xformers= >= 0.0.22.post7 don't helpfull/usefull 
+  #to any improvements on trainings or its outputs of The Trainer - Imporovements maybe you can consider
+  #on speed/memory/??? from torch or xformer, 
+  # - HOWEVER, it is depend on Origin Owner: Linaqruf use modified code from kohya-ss - and Linaqruf
+  #is no longer to update or maintain to any news/changes/features for The Trainer
+  # - meaning that Linaqruf don't adapt to any changes/features from Kohya-ss/sd-scripts - THIS Repo responsible to 
+  #features that can be helpfull/usefull to Imporovements as mentioned.
+  #HERE I don't responsible to ANY CHANGES from Kohya-ss/sd-scripts or Linaqruf/kohya-trainer in FUTURES
+
+  #Requirement for xfomers and pytorch or torch:
+  #Each version of xformers is built on each version of pytorch/torch:
+
+    #IF torch==2.1.0 choose xformers==0.0.22.post7
+    #IF torch==2.1.1 choose xformers==0.0.23
+    #IF torch==2.1.2 choose xformers==0.0.23.post1
+
+    #IF torch==2.2.0 choose xformers==0.0.24
+    #IF torch==2.2.2 choose xformers==0.0.25.post1
+    #IF torch==2.3.0 choose xformers==0.0.26.post1
+    #Updating......
+
+#------------------------------------
