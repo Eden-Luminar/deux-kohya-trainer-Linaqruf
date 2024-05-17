@@ -7,6 +7,7 @@ For README of Linaqruf/kohya-trainer, you can access in 2 link below:
 - From README.md Repo of Linaqruf/kohya-trainer at [Linaqruf/kohya-trainer](https://github.com/Linaqruf/kohya-trainer/) or [README.md](https://github.com/Linaqruf/kohya-trainer/blob/main/README.md)
 - From README-OF-Linaqruf.md of Eden-Luminar/deux-kohya-trainer-Linaqruf/ at [README-OF-Linaqruf.md](https://github.com/Eden-Luminar/deux-kohya-trainer-Linaqruf/blob/main/README-OF-Linaqruf.md)
 
+
 Github Repository for [kohya-ss/sd-scripts](https://github.com/kohya-ss/sd-scripts) colab notebook implementation
 | Notebook Name | Description | Link | V14 |
 | --- | --- | --- | --- |
@@ -40,7 +41,7 @@ w
     - Added `recursive` option to generate tags recursively, by checking sub-directories as well. Useful for multi-concept or multi-directories training.
 
 - sss
- 
+
     | network_category | network_dim | network_alpha | conv_dim | conv_alpha |
     | :---: | :---: | :---: | :---: | :---: |
     | LoRA | 32 | 1 | - | - |
