@@ -2,7 +2,7 @@
 
 This is Repo Copy/Folk of [Linaqruf/kohya-trainer](ttps://github.com/Linaqruf/kohya-trainer/) that is no longer maintain by [Linaqruf](ttps://github.com/Linaqruf/)
 For README of Linaqruf/kohya-trainer, you can access in 2 link below:
-- 1. From README.md Repo of Linaqruf/kohya-trainer at [Linaqruf/kohya-trainer](https://github.com/Linaqruf/kohya-trainer/) or [README.md]([https://github.com/Eden-Luminar/deux-kohya-trainer-Linaqruf/](https://github.com/Linaqruf/kohya-trainer/blob/main/README-OF-Linaqruf.md)
+- 1. From README.md Repo of Linaqruf/kohya-trainer at [Linaqruf/kohya-trainer](https://github.com/Linaqruf/kohya-trainer/) or [README.md](https://github.com/Linaqruf/kohya-trainer/blob/main/README-OF-Linaqruf.md)
 - 2. From README-OF-Linaqruf.md of Eden-Luminar/deux-kohya-trainer-Linaqruf/ at [README-OF-Linaqruf.md](https://github.com/Eden-Luminar/deux-kohya-trainer-Linaqruf/blob/main/README-OF-Linaqruf.md)
 
 Github Repository for [kohya-ss/sd-scripts](https://github.com/kohya-ss/sd-scripts) colab notebook implementation
