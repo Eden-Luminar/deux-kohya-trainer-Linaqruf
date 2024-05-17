@@ -1,5 +1,9 @@
-# Kohya Trainer
-[![GitHub Repo stars](https://img.shields.io/github/stars/Linaqruf/kohya-trainer?style=social)](https://github.com/Linaqruf/kohya-trainer/)</a> [![ko-fi](https://img.shields.io/badge/Support%20me%20on%20Ko--fi-F16061?logo=ko-fi&logoColor=white&style=flat)](https://ko-fi.com/linaqruf) <a href="https://saweria.co/linaqruf"><img alt="Saweria" src="https://img.shields.io/badge/Saweria-7B3F00?style=flat&logo=ko-fi&logoColor=white"/></a>
+# Kohya Trainer of Linaqruf
+
+This is Repo Copy/Folk of [Linaqruf/kohya-trainer](ttps://github.com/Linaqruf/kohya-trainer/) that is no longer maintain by [Linaqruf](ttps://github.com/Linaqruf/)
+For README of Linaqruf/kohya-trainer, you can access in 2 link below:
+- 1. From README.md Repo of Linaqruf/kohya-trainer at [Linaqruf/kohya-trainer](https://github.com/Linaqruf/kohya-trainer/) or [README.md]([https://github.com/Eden-Luminar/deux-kohya-trainer-Linaqruf/](https://github.com/Linaqruf/kohya-trainer/blob/main/README-OF-Linaqruf.md)
+- 2. From README-OF-Linaqruf.md of Eden-Luminar/deux-kohya-trainer-Linaqruf/ at [README-OF-Linaqruf.md](https://github.com/Eden-Luminar/deux-kohya-trainer-Linaqruf/blob/main/README-OF-Linaqruf.md)
 
 Github Repository for [kohya-ss/sd-scripts](https://github.com/kohya-ss/sd-scripts) colab notebook implementation
 | Notebook Name | Description | Link | V14 |
